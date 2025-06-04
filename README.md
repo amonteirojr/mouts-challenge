@@ -15,7 +15,9 @@ Certifique-se de que **Docker** e **Docker Compose** estão instalados.
 
 ### 2. Executar o projeto
 
-Na raiz do projeto, execute o seguinte comando para construir e rodar os containers:
+Na raiz do projeto, crie um arquivo .env no mesmo padrão do .env.example. Preencha com as informações necessárias, conforme os exemplos.
+
+Depois, execute o seguinte comando para construir e rodar os containers:
 
 ```bash
 docker-compose up --build
